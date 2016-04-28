@@ -3,7 +3,12 @@
 * {
   font-family: Helvetica;
   box-sizing: border-box;
+ 
+}
 
+
+h1 {
+  font-size: 30px;
 }
  .title{
 
@@ -15,6 +20,7 @@
     overflow: hidden;
     top: -2px;
     right: -2px;
+
     
 
  }
@@ -48,8 +54,10 @@
     padding: 3px 7px 3px 7px;
     margin-top: 10px;
     margin-left: 5px;
-  
+    font-size: 75%;
     margin-bottom: 10px;
+
+
     
   }
  .title > p{
