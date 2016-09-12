@@ -5,9 +5,8 @@ company.ceo = new Object();
 company.ceo.firstName = "Mark";
 company.ceo.favColor = "blue";
 
-console.log(company);
-console.log("Company CEO name is: " 
-  + company.ceo.firstName);
+console.log(company.name);
+console.log("Company CEO name is: " + company.ceo.firstName);
 
 console.log(company["name"]);
 var stockPropName = "stock of company";
@@ -23,11 +22,19 @@ var facebook = {
     firstName: "Mark",
     favColor: "blue"
   },
-  "stock of company": 110
+  $stock: 120
 };
-
-console.log(facebook.ceo.firstName);
-
+var persona = {
+	name: "Juan",
+	age: 25,
+	car: {
+		color: "blue",
+		year: 2000,
+		brand: "Toyota"
+	}
+};
+console.log(facebook);
+console.log(persona);
 
 
 
