@@ -1,9 +1,11 @@
 // Event handling
 document.addEventListener("DOMContentLoaded",
   function (event) {
-    
     function sayHello (event) {
-      this.textContent = "Said it!";
+      
+      console.log(event);
+
+      this.textContent = "I already said it little bitch!";
       var name =
        document.getElementById("name").value;
        var message = "<h2>Hello " + name + "!</h2>";
@@ -21,6 +23,13 @@ document.addEventListener("DOMContentLoaded",
         document
             .querySelector("h1")
             .textContent = title;
+      }
+    }
+    document.querySelector("body").addEventListener("mousemove", 
+      function(event)){
+      if(event.shitfKey === true){
+          console.log("x: " + event.clientX);
+          console.log("y: " + event.clientY);
       }
     }
 
